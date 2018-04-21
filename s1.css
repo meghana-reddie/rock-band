@@ -1,0 +1,80 @@
+.page-body{
+    display: grid;
+    
+}
+p{
+    text-align: justify;
+}
+
+/*===========HEADER=========*/
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: black;
+}
+.head-nav{
+    display: flex;
+}
+.head-nav li a{
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+.page-header i{
+    color: white;
+}
+
+/*========SEC-2========*/
+
+.sec-2{
+    display: grid;
+    grid-gap: 10px;
+    margin:50px;
+    margin-right: 100px;
+    margin-left:100px;
+    justify-items: center;
+    align-items: center;
+}
+
+/*======PICS=====*/
+.pics{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    .picture{
+        display:grid;
+        grid-gap:5px;
+    }
+    .picture img{
+        width: 100%;
+    }
+
+/*=========SECTION 3======*/
+.sec-3{
+    display: grid;
+    grid-gap:10px;
+    justify-items: center;
+    align-items: center;
+    background-color:black;
+    color:white;
+    padding:50px;
+    }
+    .sec-3 em{
+        justify-self: start;
+        padding-left: 80px;
+    }
+    .ticket-info{
+        display:grid;
+        grid-gap:3px;
+    }
+    
+
+    .sec-3 em button{
+        background-color:red;
+        border:none;
+        color:white;
+    }
